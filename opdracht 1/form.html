@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webshop</title>
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link href="Style/Login.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    
+    <header> Language: <select>
+      <option>Nederlands</option>
+      <option>Engels</option>
+      <option>Spaans</option>
+      <option>Duits</option>
+      <option>je moeder</option>
+    </select>
+    <h3>My account | Check out | Log in</h3>
+   </header>
+<div id="content1">
+    <img class="logo1" src="https://i.pinimg.com/originals/01/64/9f/01649f8d1d949333eabcbf9b076c8ff7.jpg" id="logo" height="100px" width="100px">
+   <h1>Norma's</h1>
+    <p class="contenttxt">Home</p>
+    <p class="home1">vinyl plate</p>
+    <p class="home2">CD's</p>    
+    <p class="home3">vinyl record player</p> 
+    <p class="home4" >song-lyrics</p>
+    <p class="home5">custemized cd's</p> 
+    <p id="contenttxt2">Search  Compare Shopping cart  </p>
+        <img   class="img1"  src="assets//images/search.png" height="30px" width="20px" alt="">
+        <img    class="img2" src="assets/images/compare.png" height="30px" width="30px" alt="">
+        <img    class="img3" src="assets/images/shopping-cart (1).png" height="30px" width="30px" alt="">
+
+</div>
+    
+<div id="main">
+  <div id="content">
+    <div id="upper-title">
+      <span class="titel-gegevens"><b>JE GEGEVENS</b></span
+      ><span class="titel-punt"><b></b></span
+      ><br />
+      <span class="titel-vraag">Wat moet er op de factuur staan?</span
+      ><br />
+    </div>
+    <div id="left">
+      <div id="txt">
+        <label>Type bestelling</label><br />
+        <label>Aanhef</label><br />
+        <label>Naam</label><br />
+        <label>Postcode</label><br />
+        <label>Huisnummer</label><br />
+        <label>Land</label><br />
+        <label>Afleveradres</label><br />
+        <label>E-mailadres</label><br />
+        <label>Telefoonnummer</label><br />
+        <label>Geboortedatum</label><br />
+        <label>Verzendwijze factuur</label><br />
+      </div>
+      <div id="akkoord-txt"><label>Nieuwsbrief</label><br /></div>
+      <div id="custom-color-txt-mm">
+        <label id="custom-color-txt">Kleur Verpakking</label><br />
+      </div>
+    </div>
+    <div id="right">
+      <div>
+        <input
+          type="radio"
+          class="keuze"
+          name="selection"
+          value="Particulier"
+        />
+        <label>Particulier</label>
+        <input
+          type="radio"
+          class="keuze"
+          name="selection"
+          value="Zakelijk"
+        />
+        <label>Zakelijk</label><br />
+      </div>
+      <div>
+        <input type="radio" class="aanhef" name="selection2" value="Dhr." />
+        <label>Dhr.</label>
+        <input type="radio" class="aanhef" name="selection2" value="Mvr." />
+        <label>Mvr.</label><br />
+      </div>
+      <div>
+        <input type="text" placeholder="Voornaam" id="voor-naam" />
+        <input type="text" placeholder="Tussenv." id="naam" />
+        <input
+          type="text"
+          placeholder="Achternaam"
+          id="achter-naam"
+        /><br />
+        <input type="text" placeholder="1234AB" class="postcode" /><br />
+        <input
+          type="text"
+          placeholder="Nr."
+          class="huisnummer"
+          id="huis-nr"
+        />
+        <input
+          type="text"
+          placeholder="Toev."
+          class="huisnummer"
+          id="huis-nr-toev"
+        /><br />
+      </div>
+      <div>
+        <select>
+          <option>Nederland</option></select
+        ><b><span id="haakje"> > </span></b
+        ><span id="opmaak"> In België laten bezorgen</span><br />
+      </div>
+      <div>
+        <input
+          type="radio"
+          id="bovenstaand"
+          name="selection3"
+          value="Bovenstaand"
+        />
+        <label>Op bovenstaand adres bezorgen</label>
+        <input type="radio" id="ander" name="selection3" value="Ander" />
+        <label>Op ander adres bezorgen</label><br />
+      </div>
+      <div>
+        <input type="text" placeholder="" id="email" /><br />
+        <input type="text" placeholder="" id="tel-nr" /><br />
+        <input type="date" id="date" /><br />
+      </div>
+      <div id="factuur">
+        <input
+          type="radio"
+          class="factuur"
+          name="selection4"
+          value="Email"
+        />
+        <label>Factuur per e-mail</label>
+        <input
+          type="radio"
+          class="factuur"
+          name="selection4"
+          value="Bestelling"
+        />
+        <label>Factuur geprint bij de bestelling</label><br />
+      </div>
+      <div id="euro">
+        <input type="checkbox" name="Akkoord" id="akkoord" />
+        <span>Ja, ik wil de Norma's-nieuwsbrief met </span
+        ><b><span class="colorred">&euro;5,- cadeaubon</span></b
+        ><span> voor<br />mijn volgende bestelling</span><br />
+        <input type="color" id="custom-color" />
+      </div>
+    </div>
+  </div>
+
+  <div id="lower-title">
+    <span class="titel-gegevens"><b>BEWAAR JE GEGEVENS</b></span
+    ><span class="titel-punt"><b>.</b></span
+    ><br />
+    <span class="titel-vraag">Handig voor de volgende keer.</span><br />
+  </div>
+  <div id="left2">
+    <label id="ww">Wachtwoord</label><br /><br /><br /><br />
+    <label id="wwb">Wachtwoord bevestigen</label>
+  </div>
+  <div id="wachtwoord-txt">
+    <input type="password" required placeholder="" id="ww2" />
+    <div id="zes-karakters">
+      <span><br />Minimaal 6 karakters.</span><br />
+      <span>Verder doen we niet zo moeilijk.</span><br />
+    </div>
+    <input type="password" required placeholder="" id="wwb2" /><br />
+  </div>
+  <a href="bedankt.html">
+  <div id="verzendbalk">
+  <input type="submit" name="Verzenden" id="verzenden" />
+</a>
+</div>
+</div>
+
+<div id="footer">
+<div id="footerlogos">
+  <img
+    id="footerlogo-thuiswinkelwaarborg"
+    src="	https://www.thuiswinkel.org/Images/logo-thuiswinkel_waarborg.svg"
+    alt="thuiswinkel-waarborg"
+  />
+  <img
+    id="footerlogo-ideal"
+    src="https://www.ideal.nl/cms/themes/ideal_nl/img/ideal_logo.svg"
+    alt="ideal-logo"
+  />
+  <img
+    id="footerlogo-mastercard"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/2560px-Mastercard-logo.svg.png"
+    alt="mastercard-logo"
+  />
+  <img
+    id="footerlogo-visa"
+    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg"
+    alt="visa-logo"
+  />
+  <img
+    id="footerlogo-paypal"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/1200px-PayPal.svg.png"
+    alt="paypal-logo"
+  />
+  <img
+    id="footerlogo-postnl"
+    src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/PostNL_logo.svg/1200px-PostNL_logo.svg.png"
+    alt="postnl-logo"
+  />
+</div>
+</body>
+</html>

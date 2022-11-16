@@ -1,0 +1,200 @@
+
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#d1d3c4;
+   
+
+  
+}
+
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+
+header{
+    background-color: #b80c09;
+    border: 1px solid #000000;
+    height: 30px;
+    width: 100%;
+    
+    
+}
+
+#inhoud{
+margin-top: -20px;
+background-color:#2f2f2f;
+}
+
+#logo{
+    margin-top: 20px;
+}
+
+#content{
+    border: 1px solid #000000;
+    height: 100px;
+    background-color: #000000;
+    
+    } 
+
+    h3{
+ 
+        font-size: 11px;
+        float: right;
+    }
+    
+    #logo{
+        margin-top: 20px;
+    }
+    
+    
+    .contenttxt{
+       text-align: center;
+        position: relative; top: -160px; left: -400px;
+        color: #d1d3c4;
+    }
+    
+    .home1{
+        text-align: center;
+        position: relative; top: -195px; left: -270px;
+        color: #d1d3c4;
+    }
+    
+    .home2{
+        text-align: center;
+        position: relative; top: -232px; left: -135px;
+        color: #d1d3c4;
+    }
+    
+    .home3{
+        text-align: center;
+        position: relative; top: -268px; left: 35px;
+        color: #d1d3c4;
+    
+    }
+    
+    .home4{
+        text-align: right;
+        position: relative; top: -304px; right:460px;
+        color: #d1d3c4;
+    }
+    
+    .home5{
+        text-align: right;
+        position: relative; top: -340px; right:240px;
+        color: #d1d3c4;
+    
+    }
+    
+    .img1{
+        
+    position: relative; top: -385px; right: -20px;
+    float: right;
+    
+    }
+    
+    .img2{
+        position: relative; top: -385px; right: -75px;
+       float:right ;
+    }
+    .img3{
+        position: relative; top: -385px; right: -150px;
+       float: right;
+    
+    }
+        
+    
+    
+    #contenttxt2{
+        float: right;
+        position: relative; top: -350px;
+        font-size: 10px;
+        color: #d1d3c4;
+        
+    }
+    h1{
+        position: relative; top: -110px;left: 100px;
+        color:#c8040e;
+    }
+
+
+    .weekend{
+        margin-left:200px ;
+        margin-top: 30px;
+    }
+
+    .logo1{
+        position: relative; top: -20px;
+    }
+
+    .cardtitle{
+        position: relative; top:-250px;
+        margin-left: 45%;
+        color: #8c86aa;
+        font-size: 35px;
+    }
+    
+    .discription{
+        position: relative; top: -200px;
+        margin-left: 45%;
+    }
+    
+    .discription1{
+        position: relative; top: -200px;
+        margin-left: 45%;
+    }
+    
+    .discription2{
+        position: relative; top: -200px;
+        margin-left: 45%;
+   
+    }
+    
+    .prijs{
+        position: relative; top: -255px; 
+        margin-left:60%;
+        font-size: 30px;
+        color: #c8040e;
+    }
+    
+    .prijs1{
+        position: relative; top: -255px;
+        margin-left:60%;
+        font-size: 30px;
+        color: #c8040e;
+    }
+    
+    .prijs2{
+        position: relative; top: -255px;
+        margin-left:60%;
+        font-size: 30px;
+        color: #c8040e;
+    }
+
+
+   .button{
+   position: relative; top: -230px; 
+   margin-left: 667px;
+   color: #b80c09;
+   }
+   
+   #footer{
+    height: 30px;
+    width: 100%;
+    background-color: #b80c09;
+    color: black;
+    position: relative; top: -80px;
+}
+
+
+
+
+#contain{
+    width: 400px;
+    height: 200px;
+    border: 1px solid rgb(128, 0, 0);
+    margin-top: -300px;
+}

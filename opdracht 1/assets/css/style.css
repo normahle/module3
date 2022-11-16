@@ -1,0 +1,413 @@
+
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#d1d3c4;
+   
+
+  
+}
+
+body{
+    overflow-x: hidden;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+header{
+    background-color: #b80c09;
+    border: 1px solid #000000;
+    height: 30px;
+    width: 100%;
+    
+    
+}
+
+#inhoud{
+margin-top: -20px;
+background-color:#2f2f2f;
+}
+
+#logo{
+    margin-top: 20px;
+}
+
+h3{
+ 
+    font-size: 11px;
+    float: right;
+}
+
+#content{
+border: 1px solid #000000;
+height: 100px;
+background-color: #000000;
+
+} 
+
+.contenttxt{
+   text-align: center;
+    position: relative; top: -160px; left: -400px;
+    color: #d1d3c4;
+}
+
+.home1{
+    text-align: center;
+    position: relative; top: -195px; left: -270px;
+    color: #d1d3c4;
+}
+
+.home2{
+    text-align: center;
+    position: relative; top: -232px; left: -135px;
+    color: #d1d3c4;
+}
+
+.home3{
+    text-align: center;
+    position: relative; top: -268px; left: 35px;
+    color: #d1d3c4;
+
+}
+
+.home4{
+    text-align: right;
+    position: relative; top: -304px; right:460px;
+    color: #d1d3c4;
+}
+
+.home5{
+    text-align: right;
+    position: relative; top: -340px; right:240px;
+    color: #d1d3c4;
+
+}
+
+.img1{
+    
+position: relative; top: -385px; right: -20px;
+float: right;
+
+}
+
+.img2{
+    position: relative; top: -385px; right: -75px;
+   float:right ;
+}
+.img3{
+    position: relative; top: -385px; right: -150px;
+   float: right;
+
+}
+    
+
+
+#contenttxt2{
+    float: right;
+    position: relative; top: -350px;
+    font-size: 10px;
+    color: #d1d3c4;
+    
+}
+h1{
+    position: relative; top: -110px;left: 100px;
+    color:#c8040e;
+}
+
+#sidebar1{
+    width:300px;
+    height: 795px;
+    float: left;
+    border: 1px solid #090909;
+    position: relative; top: -272px;
+    text-align: left;
+}
+
+#sidebar2{
+    border: 3px solid #000000;
+    height: 200px;
+    width: 250px;
+    margin: auto;
+    color:#840B0F;
+    font-size: 18px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+.logo{
+    position: relative; top: -20px;
+}
+h2{
+    float: left;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+#sidebar3{
+    border: 3px solid #000000;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.nieuws{
+    height: 10px;
+    width: 100px;
+    background-color: gray;
+}
+
+#sidebar4{
+    border: 3px solid #000000;
+    height: 150px;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+}
+
+#sidebar5{
+    border: 3px solid #000000d2;
+    height: 180px;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+#products{
+    border: 1px solid #05094400;
+    height: 800px;
+    margin-left: 310px;
+}
+
+
+img{
+    margin: 0px;
+    
+}
+
+#page{
+    float: right;
+    position: relative; top: -240px; right: -150px;
+    color: #840B0F;
+}
+#page1{
+    float: right;
+    position: relative; top: -240px; right: -155px;
+      color: #840B0F;
+}
+
+.card1{
+    border: 1px solid #05094400;
+    height:200px;
+    width:250px;
+    margin-top: px;
+    margin: 0px;
+    margin-left: 30px;
+    background-color: #05094400;
+    color: rgb(17, 89, 158);
+}
+
+
+.card2{
+    border: 1px solid #05094400;
+    height:200px;
+    width:250px;
+    float: right;
+    position: relative; top: -210px; left: -10px;
+    background-color: #05094400;
+    color: rgb(17, 89, 158);
+}
+
+.card3{
+    border: 1px solid #05094400;
+    height:200px;
+    width:250px;
+    float: right;
+    position: relative; top: -210px; left: -50px;
+    background-color: #05094400;
+    color: rgb(17, 89, 158);
+}
+
+.card4{
+    border: 1px solid #05094400;
+    height:200px;
+    width:250px;
+    float: right;
+    position: relative; top: -210px; left: -100px;
+    background-color: #05094400;
+    color: rgb(17, 89, 158);
+    
+
+}
+
+.card5{
+    border: 1px solid #05094400;
+    height:200px;
+    width:250px;
+    margin: 0px;
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: #05094400;
+    color: rgb(17, 89, 158);
+    
+}
+
+.card6{
+    border: 1px solid #05094400;
+    height:200px;
+    width:250px;
+    float: right;
+    position: relative; top: -210px;left: -10px;
+    background-color: #05094400;
+    color: rgb(17, 89, 158);
+}
+
+.card7{
+    border: 1px solid #05094400;
+    height:200px;
+    width:250px;
+    float: right;
+    position: relative; top: -210px;left: -350px;
+    background-color: #05094400;
+    color: rgb(17, 89, 158);
+}
+
+.card8{
+    border: 1px solid #05094400;
+    height:200px;
+    width:250px;
+    float: right;
+    position: relative; top: -210px; left: 200px;
+    background-color: #05094400;
+    color: rgb(17, 89, 158);
+}
+.card9{
+    border: 1px solid #05094400;
+    height:200px;
+    width:250px;
+    position: relative; top: 50px;
+    margin-left: 30px;
+    background-color: #05094400;
+    color: rgb(17, 89, 158);
+}
+
+.card10{
+    border: 1px solid #05094400;
+    height:200px;
+    width:250px;
+    float: right;
+    position: relative; top: -150px;left: -10px;
+    background-color: #05094400;
+    color: rgb(17, 89, 158);
+}
+
+.card11{
+    border: 1px solid #05094400;
+    height:200px;
+    width:250px;
+    float: right;
+    background-color: #05094400;
+    position: relative; top: -150px;left: -350px;
+    color: rgb(17, 89, 158);
+}
+
+.card12{
+    border: 1px solid #05094400;
+    height:200px;
+    width:250px;
+    float: right;
+    position: relative; top: -150px; left: 203px;
+   margin: 0px;
+   background-color: #05094400;
+   color: rgb(17, 89, 158);
+
+    
+}
+
+.cardtitle{
+    position: relative; top:-20px;
+    color: #8c86aa;
+}
+
+.discription{
+    position: relative; top: -35px;
+}
+
+.discription1{
+    position: relative; top: -40px;
+}
+
+.discription2{
+    position: relative; top: -40px;
+}
+
+.prijs{
+    position: relative; top: -67px; 
+    margin-left: 80px;
+    color: #c8040e;
+}
+
+.prijs1{
+    position: relative; top: -73px;
+    margin-left: 80px;
+    color: #c8040e;
+}
+
+.prijs2{
+    position: relative; top: -77px;
+    margin-left: 80px;
+    color: #c8040e;
+}
+
+.slider{
+    margin-top: 50px;
+    text-emphasis: center;
+    accent-color: rgb(131, 0, 22);
+}
+.geld{
+    margin-left: 110px;
+}
+
+
+.klanten{
+    font-size: 16px;
+    margin-top: -13px;
+       color: rgb(132, 11, 15);
+
+}
+
+h6{
+    font-size: 15px;
+    margin-top: -4px;
+    color: #d1d3c4;
+}
+
+a{
+    color: rgb(132, 11, 15);
+}
+
+#footer{
+    height: 30px;
+    width: 100%;
+    background-color: #b80c09;
+    color: black;
+    
+}
+
+
+
+
+
+
